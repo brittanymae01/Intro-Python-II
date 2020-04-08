@@ -9,6 +9,9 @@ class Room:
         self.s_to = s_to
         self.e_to = e_to
         self.w_to = w_to
+
+    def get_description(self):
+        return self.description
     
     # def n_to(self, n_to):
     #     self.n_to = n_to
